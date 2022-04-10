@@ -1,7 +1,7 @@
 # Acoustic-imaging-using-CUDA-Beamforming
-##Introduce:
+## Introduce:<br>
 This is a program
 
-##Build:
-make -j4
-./Beamforming sampling_data_path
+## Build:<br>
+make -j4<br>
+./Beamforming sampling_data_path<br>
