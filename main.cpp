@@ -4,6 +4,8 @@
 #include "FIRFilter.h"
 #include "SoundFieldCal.h"
 
+using namespace std;
+
 int main(int argc, char* argv[])
 {
     if(argc!=5){
@@ -26,8 +28,8 @@ int main(int argc, char* argv[])
     data.open(argv[1],ios::in);
     if (!data.is_open())
     {
-        cout << "读取数据文件失败" << endl;
-        return;
+        cout << "read data file failed!!!" << endl;
+        return -1;
     }
     string buf;
     int i=0;
