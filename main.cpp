@@ -50,6 +50,8 @@ int main(int argc, char* argv[])
 
     cout<<"result Peakfreq:"<<Peakfreq<<endl;
     cout<<"result CentralSPL:"<<centralSPL<<endl;
-
+    
+    free(input_data);
+    delete GPUCal;
     return 0;
 }
